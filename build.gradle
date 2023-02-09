@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'org.spongepowered.plugin' version '0.8.1'
+}
+
+compileJava.options.encoding = 'UTF-8'
+
+group 'net.dirtcraft.plugin'
+version '1.0.0'
+description = 'Adds a workbench command cause Nucleus didn\'t implement it until API7'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    compile 'org.spongepowered:spongeapi:5.1.0'
+}
